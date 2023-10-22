@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator-styles.css">
+</head>
+
+<body class="parent-calculator">
+    <div class="calculator">
+        <div id="display">
+            <div id="previous-operand"></div>
+            <div id="current-operand"></div>
+        </div>
+        <div class="buttons">
+            <div class="num-buttons">
+                <button class="num">7</button>
+                <button class="num">8</button>
+                <button class="num">9</button>
+                <button class="num">4</button>
+                <button class="num">5</button>
+                <button class="num">6</button>
+                <button class="num">1</button>
+                <button class="num">2</button>
+                <button class="num">3</button>
+                <button class="num" id="decimal">.</button>
+                <button class="num" id="0">0</button>
+                <button id="sign">+/-</button>
+            </div>
+            <div class="operators">
+                <button id="clear">Clr</button>
+                <button class="operator">+</button>
+                <button class="operator">-</button>
+                <button class="operator">x</button>
+                <button class="operator">/</button>
+                <button id="equals">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+    <!--It is essential for the javascript to be referenced 
+            AFTER all the elements the code affects-->
+    <script src="js/calculator-script.js"></script>
+</body>
+
+</html>
